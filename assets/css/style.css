@@ -343,10 +343,10 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #000000 url(/assets/img/153\ CSS\ Loaders.gif) no-repeat center center;
 }
 
-#preloader:before {
+/* #preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
@@ -358,7 +358,7 @@ a:hover {
   height: 60px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
-}
+} */
 
 @-webkit-keyframes animate-preloader {
   0% {
